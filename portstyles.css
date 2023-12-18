@@ -1,0 +1,158 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    margin: 0.5rem;
+}
+
+li a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav li a:active {
+    text-decoration: none;
+    color: rgb(18, 17, 17);
+}
+
+nav li a:hover {
+    color: rgb(34, 22, 22);
+    text-decoration: none;
+}
+
+nav li a:visited {
+    color: rgb(17, 17, 14);
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #f0f0f0;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+header img {
+    border-color: #0b0b0b;
+    width: 15rem;
+    height: 15rem;
+}
+
+.resume-button {
+    text-align: center;
+    margin: 2rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    background-color: #084a76;
+    color: #fff;
+    border-color: #000000;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.contact-form {
+    max-width: 60rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgb(111, 208, 208);
+    border-radius: 0.5rem;
+}
+
+.msg {
+    width: 5rem 6rem;
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+}
+
+label {
+    font-size: 1.4rem;
+}
+
+input {
+    width: 90%;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.msg input[type="text"] {
+    width: 30%;
+    height: 100%;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+}
+
+button[type="submit"] {
+    background-color: #2ecc71;
+    width: 30%;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #000000;
+    color: #fff;
+}
+
+.myself {
+    border: 0.2rem solid black;
+    display: inline-block;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    background-color: aquamarine;
+    border-radius: 1rem;
+    width: 50%;
+}
+
+.list {
+    border: 0.2rem solid black;
+    padding: 2.6rem;
+    background-color: blanchedalmond;
+    margin: 1.5rem;
+    display: inline-block;
+    border-radius: 3rem;
+    font-size: larger;
+    width: 50%;
+}
+
+.contact {
+    border: 0.2rem solid black;
+    background-color: rgb(152, 158, 154);
+    display: inline-block;
+    padding: 5rem;
+    margin-left: 60.6rem;
+    border-radius: 1rem;
+}
+
+@media(max-width:998px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px) {
+    html {
+        font-size: 45%;
+    }
+}
